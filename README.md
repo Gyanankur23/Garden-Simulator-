@@ -24,7 +24,7 @@ Perfect for new Python learners who want to practice with lists, loops, input, a
 
 2. Run the game (make sure Python is installed):
 
-python easy_garden_simulator.py
+python Garden_simulator.py
 
 
 3. Follow the menu options:
@@ -43,7 +43,7 @@ Press 4 to exit the game ❌
 
 ---
 
-##🧠 Code Explanation
+**🧠 Code Explanation**
 
 The code is kept super simple. Here's what each part does:
 
@@ -63,7 +63,7 @@ main() → shows the menu and handles user input
 
 ---
 
-##🖥️ Example Output
+**🖥️ Example Output**
 
 --- Garden Simulator ---
 1. Plant a seed
@@ -77,7 +77,7 @@ You planted a Rose!
 
 ---
 
-##📜 License
+ **〽️License**
 
 Copyright © 2025 Gyanankur Baruah
 
@@ -87,7 +87,7 @@ You’re free to use, modify, and share it — just credit the original author.
 
 ---
 
-##👤 Author
+**👤 Author**
 
 Gyanankur Baruah
 GitHub: @Gyanankur23
@@ -95,7 +95,7 @@ GitHub: @Gyanankur23
 
 ---
 
-🤝 Contributions
+**🤝 Contributions**
 
 Have an idea to improve this?
 Found a bug? Want to add new features like flowers blooming or saving the garden?
