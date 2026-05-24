@@ -8,7 +8,7 @@ Instead of a plain text menu, you can now manage your patch using a visual dashb
 
 ## 🚀 Live Deployment
 
-👉 **[Click here to play the live Garden Simulator Game!](https://streamlit.app)**
+👉 **[Click here to play the live Garden Simulator Game!]([https://streamlit.app](https://saxafnhn9ermxgxjotdefb.streamlit.app/))**
 
 ---
 
