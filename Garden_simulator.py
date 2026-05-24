@@ -71,7 +71,6 @@ with st.sidebar:
         st.session_state.garden = []
         st.toast("Garden cleared. Time for a fresh start!", icon="🧹")
 
-# Main Display: The Visual Garden Grid
 st.subheader("🏡 Your Visual Garden Patch")
 
 if not st.session_state.garden:
