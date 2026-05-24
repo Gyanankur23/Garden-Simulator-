@@ -29,7 +29,6 @@ def get_plant_emoji(growth_level):
     elif growth_level < 10: return "🌻"
     else: return "🌳"
 
-# Sidebar Actions (Planting Panel)
 with st.sidebar:
     st.header("🎒 Gardener's Toolbelt")
     
