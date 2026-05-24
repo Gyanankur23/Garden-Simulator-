@@ -19,7 +19,6 @@ st.markdown("""
 st.title("🌿 Magic Garden Simulator")
 st.caption("Plant seeds, sing to them, water them, and watch them sprout into life!")
 
-# Initialize Session State for data persistence across web reloads
 if "garden" not in st.session_state:
     st.session_state.garden = []  # List of dicts: {"name": str, "growth": int, "stage": str}
 
