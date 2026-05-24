@@ -61,7 +61,6 @@ with st.sidebar:
     if st.button("🎶 Sing to Garden", use_container_width=True):
         if st.session_state.garden:
             for plant in st.session_state.garden:
-                # Random chance to boost growth with music
                 if random.choice([True, False]):
                     plant["growth"] += 1
             st.toast("🎵 Your beautiful singing voice cheered up the plants!", icon="🎶")
