@@ -85,8 +85,8 @@ else:
             emoji = get_plant_emoji(plant["growth"])
             
             with st.container(border=True):
-                st.markdown(f"<h1 style='text-align: center; margin:0;'>{emoji}</h1>", unsafe_html=True)
-                st.markdown(f"<h3 style='text-align: center; margin:0;'>{plant['name']}</h3>", unsafe_html=True)
+                st.markdown(f"<h1 style='text-align: center; margin:0;'>{emoji}</h1>", unsafe_allow_html=True)
+                st.markdown(f"<h3 style='text-align: center; margin:0;'>{plant['name']}</h3>", unsafe_allow_html=True)
                 
                 if plant["growth"] == 0:
                     stage_name = "Just Planted"
@@ -99,7 +99,7 @@ else:
                 else:
                     stage_name = "Mega Tree!"
                     
-                st.markdown(f"<p style='text-align: center; color: gray;'>Stage: {stage_name}<br>Growth Level: <b>{plant['growth']}</b></p>", unsafe_html=True)
+                st.markdown(f"<p style='text-align: center; color: gray;'>Stage: {stage_name}<br>Growth Level: <b>{plant['growth']}</b></p>", unsafe_allow_html=True)
                 
                 if st.button(f"💧 Water {plant['name']}", key=f"water_{idx}", use_container_width=True):
                     plant["growth"] += 1
