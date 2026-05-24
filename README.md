@@ -1,79 +1,54 @@
-# 🌱 Garden Simulator - Text Based Game
+# 🌿 Magic Garden Simulator
 
-Welcome to the **Garden Simulator** — a fun and simple text-based game written in Python for beginners!  
-In this game, you can plant seeds 🌼, water your plants 💧, and grow your own little garden 🪴.  
-Perfect for new Python learners who want to practice with lists, loops, input, and conditionals.
+Welcome to the **Garden Simulator** — an interactive, web-based digital garden application built with Python and Streamlit! 
+
+Instead of a plain text menu, you can now manage your patch using a visual dashboard, experience real-time celebration animations, and watch your plants grow visually in a clean grid.
+
+---
+
+## 🚀 Live Deployment
+
+👉 **[Click here to play the live Garden Simulator Game!](https://streamlit.app)**
 
 ---
 
 ## ✨ Features
 
-- 🌱 Plant new seeds and name your plants.
-- 💧 Water plants to help them grow.
-- 📊 View the current state of your garden.
-- 🧑‍💻 Beginner-friendly Python code — no advanced concepts needed!
+- **🎒 Gardener's Toolbelt**: Named seed inputs with custom duplicate protection.
+- **💧 Visual Care**: Water individual plants or the entire garden patch simultaneously.
+- **🎶 Playful Interactions**: Sing to your plants to boost growth, accompanied by live toast alerts and animations.
+- **📊 Dynamic Growth Stages**: See your items change visually from Seeds (`🌱`) to Sprouts (`🌿`), Vines (`🪴`), Flowers (`🌻`), and Mega Trees (`🌳`).
 
 ---
 
-## 🚀 How to Use
+## 🛠️ Local Setup
+
+If you want to download and run this application locally on your machine, follow these steps:
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/Gyanankur23/Garden-Simulator-.git
+   git clone https://github.com
    cd Garden-Simulator-
+   ```
 
-2. Run the game (make sure Python is installed):
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-python Garden_simulator.py
-
-
-3. Follow the menu options:
-
-Press 1 to plant a seed 🌼
-
-Press 2 to water your plants 💧
-
-Press 3 to check the garden's status 🪴
-
-Press 4 to exit the game ❌
-
-
-
-
+3. **Run the web app:**
+   ```bash
+   streamlit run Garden_simulator.py
+   ```
 
 ---
 
-**🧠 Code Explanation**
+## 🧠 Code Architecture
 
-The code is kept super simple. Here's what each part does:
-
-plants = [] → stores the names of your plants
-
-growth = [] → keeps track of how much each plant has grown
-
-plant_seed() → asks for a name and plants a new seed
-
-water_plants() → increases the growth level of all plants
-
-show_garden() → displays the garden status
-
-main() → shows the menu and handles user input
-
-
-
----
-
-**🖥️ Example Output**
-
---- Garden Simulator ---
-1. Plant a seed
-2. Water plants (make them grow)
-3. Show garden
-4. Exit
-Choose an option (1-4): 1
-Enter the name of the plant: Rose
-You planted a Rose!
-
+The underlying structure has been modernised to harness web framework mechanics:
+- **`st.session_state`**: Retains your growing vegetation list securely across continuous browser tab refreshes.
+- **Layout Grids**: Distributes your active plants automatically into an adaptive, clean 3-column browser display.
+- **HTML Injection**: Seamlessly shapes individual component blocks using clean CSS properties.
 
 ---
 
@@ -84,14 +59,12 @@ Copyright © 2025 Gyanankur Baruah
 This project is licensed under the MIT License.
 You’re free to use, modify, and share it — just credit the original author.
 
-
 ---
 
 **👤 Author**
 
 Gyanankur Baruah
-GitHub: @Gyanankur23
-
+GitHub: [@Gyanankur23](https://github.com)
 
 ---
 
@@ -102,6 +75,3 @@ Found a bug? Want to add new features like flowers blooming or saving the garden
 Feel free to fork the repo, open a pull request, or create an issue!
 
 Thanks for checking out the Garden Simulator! Happy coding 🌼
-
-
-
