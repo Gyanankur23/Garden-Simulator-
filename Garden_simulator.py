@@ -102,7 +102,6 @@ else:
                     
                 st.markdown(f"<p style='text-align: center; color: gray;'>Stage: {stage_name}<br>Growth Level: <b>{plant['growth']}</b></p>", unsafe_html=True)
                 
-                # Individual plant care button
                 if st.button(f"💧 Water {plant['name']}", key=f"water_{idx}", use_container_width=True):
                     plant["growth"] += 1
                     st.rerun()
