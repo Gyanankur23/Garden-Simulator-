@@ -14,7 +14,7 @@ st.markdown("""
         transform: scale(1.05);
     }
     </style>
-""", unsafe_index=True)
+""", unsafe_index_html=True)
 
 st.title("🌿 Magic Garden Simulator")
 st.caption("Plant seeds, sing to them, water them, and watch them sprout into life!")
