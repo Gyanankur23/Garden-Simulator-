@@ -88,7 +88,6 @@ else:
                 st.markdown(f"<h1 style='text-align: center; margin:0;'>{emoji}</h1>", unsafe_html=True)
                 st.markdown(f"<h3 style='text-align: center; margin:0;'>{plant['name']}</h3>", unsafe_html=True)
                 
-                # Dynamic growth badge labels
                 if plant["growth"] == 0:
                     stage_name = "Just Planted"
                 elif plant["growth"] < 3:
