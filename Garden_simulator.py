@@ -76,7 +76,6 @@ st.subheader("🏡 Your Visual Garden Patch")
 if not st.session_state.garden:
     st.info("Your garden patch is bare dirt right now. Use the sidebar toolbelt to plant your very first seed! 👇")
 else:
-    # Arrange plants in a dynamic clean grid layout (3 items per row)
     cols = st.columns(3)
     
     for idx, plant in enumerate(st.session_state.garden):
