@@ -36,7 +36,6 @@ with st.sidebar:
     
     if st.button("✨ Plant Seed", use_container_width=True):
         if plant_name.strip():
-            # Check for duplicates to prevent confusion
             if any(p['name'].lower() == plant_name.strip().lower() for p in st.session_state.garden):
                 st.warning(f"You already have a '{plant_name}' in your garden!")
             else:
