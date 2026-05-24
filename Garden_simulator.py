@@ -22,7 +22,6 @@ st.caption("Plant seeds, sing to them, water them, and watch them sprout into li
 if "garden" not in st.session_state:
     st.session_state.garden = []  
 
-# Helper to determine plant emoji based on growth stage
 def get_plant_emoji(growth_level):
     if growth_level == 0: return "🌱"
     elif growth_level < 3: return "🌿"
