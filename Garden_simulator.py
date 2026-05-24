@@ -20,7 +20,7 @@ st.title("🌿 Magic Garden Simulator")
 st.caption("Plant seeds, sing to them, water them, and watch them sprout into life!")
 
 if "garden" not in st.session_state:
-    st.session_state.garden = []  # List of dicts: {"name": str, "growth": int, "stage": str}
+    st.session_state.garden = []  
 
 # Helper to determine plant emoji based on growth stage
 def get_plant_emoji(growth_level):
