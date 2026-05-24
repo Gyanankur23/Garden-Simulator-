@@ -49,7 +49,6 @@ with st.sidebar:
 
     st.divider()
     
-    # Global Actions
     if st.button("💧 Water All Plants", use_container_width=True):
         if st.session_state.garden:
             for plant in st.session_state.garden:
